@@ -1,0 +1,275 @@
+body, html{
+	background-color: #FFF;
+	height: 100%;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li a{
+	text-decoration: none;
+	color: #FFF;
+	display: block;
+}
+h1{
+	font-size: 81px;
+	font-family: sans-serif;
+	font-weight: 700;
+}
+.sideNav{
+	height: 100%;
+	width: 60px;
+	display: block;
+	background-color: #111111;
+	color: #FFF;
+	position: fixed;
+	padding-top: 50px;
+}
+.nav_text{
+	rotate: -90deg;
+	text-align: center;
+	margin: 30px 0px 135px 0px;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+.main_container{
+	background-color: #FFF;
+	height: 100%;
+	width: 100%;
+	padding-left: 60px;
+	padding-top: 70px;
+}
+.podtext{
+	font-size: 22px;
+}
+.photo1{
+	width: 80%;
+	display: block;
+}
+.main_photo{
+	display: block;
+	width: 100%;
+}
+.btn_res{
+	width: 150px;
+	height: 50px;
+	margin-top: 170px;
+	background-color: #347ddb;
+	color: #ffffff;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: transparent;
+	font-size: 14px;
+	font-weight: 600;
+}
+.podvideo_text{
+	font-size: 22px;
+}
+.make_bold{
+	font-weight: 700;
+}
+.container_ad{
+	background-color: #242424;
+	width: 100%;
+	padding: 80px 300px;
+	display: grid;
+	grid-template-columns: 70% 30%;
+	grid-template-rows: auto;
+}
+.ad_text{
+	color: #FFF;
+	font-weight: 700;
+	font-size: 22px;
+	width: 570px;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+.btnn{
+	color: #FFF;
+	font-weight: 700;
+	font-size: 18px;
+	width: 260px;
+	height: 60px;
+	background-color: #0051ff;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+.container_dates{
+	padding-top: 50px;
+	padding-bottom: 95px;
+	padding-left: 180px;
+	padding-right: 180px;
+	background-color: #ffffff;
+}
+.dates_title{
+	color: #000000;
+	line-height: 46px;
+	font-size: 40px;
+	font-family: 'IBM Plex Sans', Arial, sans-serif;
+	font-weight: 700;
+	margin-bottom: 88px;
+}
+.dates_cards{
+	display: grid;
+	grid-template-columns: 31% 3% 31% 3% auto;
+	grid-template-rows: auto;
+}
+.two{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+.three{
+	grid-column-start: 5;
+	grid-column-end: 6;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+.dates_card_container{
+	padding: 35px 25px;
+	box-shadow: 1px 1px 20px 0 rgba(212, 212, 212, 0.7);
+}
+.dates_card{
+	border-right: 2px solid black;
+	display: block;
+}
+.card_number{
+	line-height: 124px;
+	color: #4ecca0;
+    font-size: 80px;
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+	font-weight: 700;
+	margin-bottom: 35px;
+	margin: 0 20px;	
+}
+.make_bold{
+	font-weight: 700;
+}
+.make_bold2{
+	font-weight: 600;
+}
+.card_text{
+	color: #000000;
+	font-size: 19px;
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+	margin: 0 20px;
+}
+.card_difficulty{
+	line-height: 30px;
+	color: #4ecca0;
+    font-size: 33px;
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+	font-weight: 700;
+	margin: 0 20px;
+}
+.align_bottom{
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+}
+.container_education{
+	padding: 137px 120px;
+	text-align: center;
+}
+.education_title{
+	margin-bottom: 40px;
+	font-size: 38px;
+	line-height: 1.23;
+	font-family: 'IBM Plex Sans', Arial, sans-serif;
+	font-weight: 600;
+	color: #000000;
+}
+.education_text{
+	line-height: 1.5;
+	font-family: 'IBM Plex Sans', Arial, sans-serif;
+	font-weight: 300;
+	color: #000000;
+	font-size: 20px;
+}
+.education_grid{
+	display: grid;
+	grid-template-columns: 48.1% 3.8% auto;
+	grid-template-rows: auto 40px auto 40px auto 40px auto 40px auto;
+	margin-bottom: 90px;
+}
+.education_grid_container{
+	box-shadow: 1px 1px 20px 0 rgba(212, 212, 212, 0.7);
+	padding: 35px 50px 45px 50px;
+}
+.edu1{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+.edu2{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+.edu3{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 5;
+	grid-row-end: 6;
+}
+.edu4{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 7;
+	grid-row-end: 8;
+}
+.edu5{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 9;
+	grid-row-end: 10;
+}
+.edu6{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+.edu7{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+.edu8{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 5;
+	grid-row-end: 6;
+}
+.edu9{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 7;
+	grid-row-end: 8;
+}
+.edu10{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 9;
+	grid-row-end: 10;
+}
+.education_btn{
+	background-color: #0051ff;
+	width: 333px;
+	height: 60px;
+	color: #ffffff;
+	font-size: 22px;
+	font-family: 'IBM Plex Sans', Arial, sans-serif;
+	font-weight: 700;
+	cursor: pointer;
+	border: 0px;
+}
